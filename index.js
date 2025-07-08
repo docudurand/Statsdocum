@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const STATS_ENDPOINT = "https://script.google.com/macros/s/AKfycbxYtafeiKsgq4R0OYdHiNpj_k_ZCbusX1TL_qwWbcKE4ntXNEG55AIyiADyDCygTXuJ/exec";
+const STATS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzzTtQ2pPWqfGngj9cUG1KD7Z961kp7qpokhgtzSYpXKWlKo9_shgaQC7_JD_vhy1MV/exec";
 
 app.post("/proxy-google-sheet", async (req, res) => {
   try {
